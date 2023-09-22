@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="Style/style-pag1.css">
     <script src="Script/script-pag1.js"></script>
 </head>
+
 <body>
     <div class="scale_pad">
         <div id="scale_ball"></div>
@@ -14,13 +16,13 @@
         <div id="scale_button_off" class="scale_button " onclick="func_escala_back()"></div>
     </div>
     <section>
-        <div id="planeta1" class="planeta planeta1">
+        <div id="planeta1" class="planeta planeta1" onclick="func_sol()">
             <div class="planeta_menor planeta1_menor"></div>
         </div>
-        <div id="planeta2" class="planeta planeta2">
+        <div id="planeta2" class="planeta planeta2" onclick="func_mercurio()">
             <div class="planeta_menor planeta2_menor"></div>
         </div>
-        <div id="planeta3" class="planeta planeta3">
+        <div id="planeta3" class="planeta planeta3" onclick="func_venus()">
             <div class="planeta_menor planeta3_menor"></div>
         </div>
         <div id="planeta4" class="planeta planeta4">
@@ -47,5 +49,18 @@
             <div class="planeta_menor planeta9_menor"></div>
         </div>
     </section>
+
+    <div id="solpopup">
+        <div class="sol"></div>
+    </div>
+
+    <div id="mercuriopopup">
+        <div class="mercurio"></div>
+    </div>
+
+    <div id="venuspopup">
+        <div class="venus"></div>
+    </div>
+
 </body>
 </html>
