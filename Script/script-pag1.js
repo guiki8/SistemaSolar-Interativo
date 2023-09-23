@@ -73,3 +73,21 @@ function func_mercurio() {
 function func_venus() {
     document.getElementById('venuspopup').style.display= 'block'
 }
+function func_terra() {
+    document.getElementById('terrapopup').style.display= 'block'
+}
+function func_marte() {
+    document.getElementById('martepopup').style.display= 'block'
+}
+function func_jupiter() {
+    document.getElementById('jupiterpopup').style.display= 'block'
+}
+function func_saturno() {
+    document.getElementById('saturnopopup').style.display= 'block'
+}
+function func_urano() {
+    document.getElementById('uranopopup').style.display= 'block'
+}
+function func_netuno() {
+    document.getElementById('netunopopup').style.display= 'block'
+}
