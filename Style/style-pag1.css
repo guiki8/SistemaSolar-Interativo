@@ -9,86 +9,186 @@
     font-family: ShareTech;
 }
 
+/* Barra de Scroll */
+    ::-webkit-scrollbar {
+        width: 10px;
+        background: rgb(0 ,0 ,0 , 0.5);
+        border-radius: 30px;
+    }
+  
+    ::-webkit-scrollbar-track {
+        border-radius: 30px;
+    }
+  
+    ::-webkit-scrollbar-thumb {
+        background: white; 
+        border-radius: 30px;
+    }
+  
+    ::-webkit-scrollbar-thumb:hover {
+        border: 0.5vh solid white;
+        background: rgb(0 ,0 ,0 , 0.5);
+    }
+
+.header{
+    width: 100%;
+    height: 10vh;
+    border-radius: 30px;
+    background: rgb(0 ,0 ,0 , 0.5);
+    border: 0.5vh solid white;
+}
+
+.pag1_link, .pag2_link{
+    width: 20%;
+    height: 8vh;
+    margin: 1vh;
+    font-size: 2.5vmax;
+    text-align: center;
+    float: left;
+    border-radius: 30px;
+    padding: 0.5vh;
+    box-sizing: border-box;
+    background: rgb(0 ,0 ,0 , 0.5);
+    border: 0.5vh solid white;
+}
+
+.pag1_link:hover, .pag2_link:hover{
+    cursor: pointer;
+    color: black;
+    background-color: rgb(255 ,255 ,255);
+}
+
 body {
-    background-color: black;
+    padding: 1vmax;
+}
+
+.section2{
+    overflow: hidden;
+    overflow-x: scroll;
+    height: 60vh;
+    margin-top: 5vh;
+    background: rgb(0 ,0 ,0 , 0.5);
+    border: 0.5vh solid white;
+    border-radius: 30px;
 }
 
 section {
-    
-    overflow-y: hidden;
+    overflow: hidden;
     width: min-content;
-    padding: 5vh;
     height: 60vh;
-    margin-top: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(Imagens/fundo.gif), linear-gradient(90deg, rgb(214, 150, 104) 0%, rgb(156, 83, 48) 6%, rgb(75, 45, 38) 20%, rgb(27, 13, 17) 40%, rgb(23, 12, 21) 70%, rgb(8, 5, 10) 100%);; 
-    background-blend-mode: lighten;
+    border-radius: 30px;
+}
+
+.pad{
+    width: 30%;
+    height: 8vh;
+    margin: 1vh;
+    font-size: 2.5vmax;
+    text-align: center;
+    float: right;
+    border-radius: 30px;
+    padding: 0.5vh;
+    box-sizing: border-box;
+    background: rgb(0 ,0 ,0 , 0.5);
+    border: 0.5vh solid white;
 }
 
 .scale_pad {
-    padding: 0.25vmax;
-    height: 2.5vmax;
-    width: 5vmax;
+    margin-top: 1vmin;
+    padding: 0.25vmin;
+    height: 6vmin;
+    width: 12vmin;
     border-radius: 100px;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin: 0 auto;
+    float: right;
+    box-sizing: border-box;
     cursor: pointer;
-    background-color: rgb(41, 54, 54);
-    display: flexbox;
+    background: rgb(0 ,0 ,0 , 0.5);
+    border: 0.5vh solid white;
+}
+
+.scale_pad:hover #scale_ball {
+    border: 0.5vh solid white;
+    background: rgb(0 ,0 ,0 , 0.5);
 }
 
 #scale_ball {
-    height: 90%;
-    width: 45%;
-    margin-top: 2.5%;
-    margin-left: 2.5%;
+    height: 4vmin;
+    width: 4vmin;
+    margin-top: 0.25vmin;
+    margin-left: 0.25vmin;
     border-radius: 100%;
     background-color: white;
     transition: margin-left 0.2s linear;
+    box-sizing: border-box;
 }
 
 .scale_button {
-    height: 5vmax;
-    width: 10vmax;
-    margin-top: -5vmax;
+    height: 2.5vmax;
+    width: 5vmax;
+    margin-top: -2.5vmax;
     position: absolute;
     background-color: transparent;
     border-radius: 100px;
 }
 
-#scale_button_on {
-    display: block;
-}
-
-#scale_button_off {
-    display: none;
-}
-
 /* TELA DE CELULAR  */
 @media(max-width:100vh) {
-    * {
-        color: white;
-        font-size: 3vmax;
-        font-family: fantasy;
+
+    body{
+        background-image: url(Imagens/fundo.gif), linear-gradient(180deg, rgb(214, 150, 104) 0%, rgb(156, 83, 48) 6%, rgb(75, 45, 38) 20%, rgb(27, 13, 17) 40%, rgb(23, 12, 21) 70%, rgb(8, 5, 10) 100%);; 
+        background-blend-mode: lighten;
     }
 
-    section {
+    .pad{
+        width: 40%;
+    }
+
+    .section2 {
+        overflow: hidden;
         width: 100%;
-        height: 100vh;
-        margin-top: 20vh;
+        height: 100%;
+        margin-top: 2vh;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        background: linear-gradient(180deg, rgb(214, 150, 104) 0%, rgb(156, 83, 48) 6%, rgb(75, 45, 38) 20%, rgb(27, 13, 17) 40%, rgb(23, 12, 21) 70%, rgb(8, 5, 10) 100%);
+    }
+
+    section{
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #scale_button_on {
+        display: none;
+    }
+
+    #scale_button_on_cell {
+        display: block;
+    }
+
+    #scale_button_off {
+        display: none;
+    }
+    
+    #scale_button_off_cell {
+        display: none;
     }
 
     .planeta {
         float: left;
-        margin-top: 3vmax;
+        margin-top: 5vmax;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -99,6 +199,28 @@ section {
 
 /* TELA DE COMPUTADOR  */
 @media(min-width:100vh) {
+
+    body{
+        background-image: url(Imagens/fundo.gif), linear-gradient(90deg, rgb(214, 150, 104) 0%, rgb(156, 83, 48) 6%, rgb(75, 45, 38) 20%, rgb(27, 13, 17) 40%, rgb(23, 12, 21) 70%, rgb(8, 5, 10) 100%);; 
+        background-blend-mode: lighten;
+    }
+
+    #scale_button_on {
+        display: block;
+    }
+
+    #scale_button_on_cell {
+        display: none;
+    }
+
+    #scale_button_off {
+        display: none;
+    }
+    
+    #scale_button_off_cell {
+        display: none;
+    }
+
     .planeta {
         float: left;
         margin-left: 3vw;
@@ -318,9 +440,10 @@ section {
     background-image: url(Planetas/saturno.jpg);
     background-size: cover;
     animation-name: animation;
-    animation-duration: 7s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    rotate: -20deg;
 }
 
 .planeta7:hover::before {
@@ -333,6 +456,12 @@ section {
     padding: 5px 10px;
     border-radius: 5px;
     opacity: 0.9;
+}
+
+.aneis {
+    height: 100%;
+    width: 250%;
+    margin-left: -75%;
 }
 
 .planeta8 {

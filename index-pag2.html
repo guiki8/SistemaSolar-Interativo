@@ -8,11 +8,19 @@
     <script src="Script/script-pag2.js"></script>
 </head>
 <body>
-    <div class="scale_pad">
-        <div id="scale_ball"></div>
-        <div id="scale_button_on" class="scale_button" onclick="func_escala()"></div>
-        <div id="scale_button_off" class="scale_button" onclick="func_escala_back()"></div>
-    </div>
+    <header class="header">
+        <a href="index-pag1.html"><div class="pag1_link">Sistema solar</div></a>
+        <a href="index-pag2.html"><div class="pag2_link">Órbita</div></a>
+        <div class="pad">Button:
+            <div class="scale_pad">
+                <div id="scale_ball"></div>
+                <div id="scale_button_on_cell" class="scale_button" onclick="func_escala_cell()"></div>
+                <div id="scale_button_on" class="scale_button" onclick="func_escala()"></div>
+                <div id="scale_button_off_cell" class="scale_button" onclick="func_escala_back_cell()"></div>
+                <div id="scale_button_off" class="scale_button" onclick="func_escala_back()"></div>
+            </div>
+        </div>
+    </header>
     <section>
         <div class="sol"></div>
 
@@ -38,7 +46,9 @@
 
         <div class="saturno_orbita orbita"></div>
 
-        <div id="saturno" class="saturno"></div>
+        <div id="saturno" class="saturno">
+            <img class="aneis" src="Style/Planetas/aneis.png" height="100%" width="auto">
+        </div>
 
         <div class="urano_orbita orbita"></div>
 

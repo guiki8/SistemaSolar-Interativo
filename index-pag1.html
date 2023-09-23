@@ -8,45 +8,56 @@
     <script src="Script/script-pag1.js"></script>
 </head>
 <body>
-    <div class="scale_pad">
-        <div id="scale_ball"></div>
-        <div id="scale_button_on" class="scale_button" onclick="func_escala()"></div>
-        <div id="scale_button_off" class="scale_button" onclick="func_escala_back()"></div>
-    </div>
+    <header class="header">
+        <a href="index-pag1.html"><div class="pag1_link">Sistema solar</div></a>
+        <a href="index-pag2.html"><div class="pag2_link">Órbita</div></a>
+        <div class="pad">Tamanho real:
+            <div class="scale_pad">
+                <div id="scale_ball"></div>
+                <div id="scale_button_on_cell" class="scale_button" onclick="func_escala_cell()"></div>
+                <div id="scale_button_on" class="scale_button" onclick="func_escala()"></div>
+                <div id="scale_button_off_cell" class="scale_button" onclick="func_escala_back_cell()"></div>
+                <div id="scale_button_off" class="scale_button" onclick="func_escala_back()"></div>
+            </div>
+        </div>
+    </header>
+    <div class="section2">
     <section>
-        <div id="planeta1" class="planeta planeta1" onclick="func_sol()">
-            <div class="planeta_menor planeta1_menor"></div>
-        </div>
-        <div id="planeta2" class="planeta planeta2" onclick="func_mercurio()">
-            <div class="planeta_menor planeta2_menor"></div>
-        </div>
-        <div id="planeta3" class="planeta planeta3" onclick="func_venus()">
-            <div class="planeta_menor planeta3_menor"></div>
-        </div>
-        <div id="planeta4" class="planeta planeta4" onclick="func_terra()">
-            <div class="planeta_menor planeta4_menor">
-                <div class="lua">
-                    <div class="blua"></div>
+            <div id="planeta1" class="planeta planeta1" onclick="func_sol()">
+                <div class="planeta_menor planeta1_menor"></div>
+            </div>
+            <div id="planeta2" class="planeta planeta2" onclick="func_mercurio()">
+                <div class="planeta_menor planeta2_menor"></div>
+            </div>
+            <div id="planeta3" class="planeta planeta3" onclick="func_venus()">
+                <div class="planeta_menor planeta3_menor"></div>
+            </div>
+            <div id="planeta4" class="planeta planeta4" onclick="func_terra()">
+                <div class="planeta_menor planeta4_menor">
+                    <div class="lua">
+                        <div class="blua"></div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div id="planeta5" class="planeta planeta5" onclick="func_marte()">
-            <div class="planeta_menor planeta5_menor"></div>
-        </div>
-        <div id="planeta6" class="planeta planeta6" onclick="func_jupiter()">
-            <div class="planeta_menor planeta6_menor"></div>
-        </div>
-        <div id="planeta7" class="planeta planeta7" onclick="func_saturno()">
-            <div class="planeta_menor planeta7_menor">
+            <div id="planeta5" class="planeta planeta5" onclick="func_marte()">
+                <div class="planeta_menor planeta5_menor"></div>
             </div>
-        </div>
-        <div id="planeta8" class="planeta planeta8" onclick="func_urano()">
-            <div class="planeta_menor planeta8_menor"></div>
-        </div>
-        <div id="planeta9" class="planeta planeta9" onclick="func_netuno()">
-            <div class="planeta_menor planeta9_menor"></div>
-        </div>
-    </section>
+            <div id="planeta6" class="planeta planeta6" onclick="func_jupiter()">
+                <div class="planeta_menor planeta6_menor"></div>
+            </div>
+            <div id="planeta7" class="planeta planeta7" onclick="func_saturno()">
+                <div class="planeta_menor planeta7_menor">
+                    <img class="aneis" src="Style/Planetas/aneis.png" height="100%" width="auto">
+                </div>
+            </div>
+            <div id="planeta8" class="planeta planeta8" onclick="func_urano()">
+                <div class="planeta_menor planeta8_menor"></div>
+            </div>
+            <div id="planeta9" class="planeta planeta9" onclick="func_netuno()">
+                <div class="planeta_menor planeta9_menor"></div>
+            </div>
+        </section>
+    </div>
 
     <div id="solpopup">
         <div class="sol"></div>
