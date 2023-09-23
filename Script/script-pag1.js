@@ -1,11 +1,11 @@
 function func_escala() {
     document.getElementById('scale_button_on').style.display = 'none'
     document.getElementById('scale_button_off').style.display = 'block'
+    document.getElementById('scale_ball').style.marginLeft = '50%'
 
     document.getElementById('planeta1').style.height = '605vmin'
     document.getElementById('planeta1').style.width = '605vmin'
     document.getElementById('planeta1').style.marginLeft = '-550vmin'
-    document.getElementById('scale_ball').style.marginLeft = '50%'
 
     document.getElementById('planeta2').style.height = '2vmin'
     document.getElementById('planeta2').style.width = '2vmin'
