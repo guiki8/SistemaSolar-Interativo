@@ -9,6 +9,10 @@
     font-family: ShareTech;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* Barra de Scroll */
     ::-webkit-scrollbar {
         width: 10px;
@@ -548,114 +552,60 @@ section {
     }
 }
 
-#solpopup {
-    background-color: white;
+
+.popup{
     width: 100%;
     height: 45vh;
     display: none;
+    float: left;
 }
-
-.sol {
+.borda {
     border: solid black;
     width: 30%;
     height: 45vh;
     margin-left: 2%;
+    float: left;
+}
+
+.icone_x {
+    float: right;
+    cursor: pointer;
+    width: 5vw;
+    height: 50px;
+}
+
+#solpopup {
+    background-color: white;
 }
 
 #mercuriopopup {
     background-color: red;
-    width: 100%;
-    height: 45vh;
-    display: none;
 }
 
-.mercurio {
-    border: solid black;
-    width: 30%;
-    height: 45vh;
-    margin-left: 2%;
-}
 #venuspopup {
     background-color: yellow;
-    width: 100%;
-    height: 45vh;
-    display: none;
 }
-.venus {
-    border: solid black;
-    width: 30%;
-    height: 45vh;
-    margin-left: 2%;
-}
+
 #terrapopup {
     background-color: aqua;
-    width: 100%;
-    height: 45vh;
-    display: none;
 }
-.terra {
-    border: solid black;
-    width: 30%;
-    height: 45vh;
-    margin-left: 2%;
-}
+
 #martepopup {
     background-color: chartreuse;
-    width: 100%;
-    height: 45vh;
-    display: none;
 }
-.marte {
-    border: solid black;
-    width: 30%;
-    height: 45vh;
-    margin-left: 2%;
-}
+
 #jupiterpopup {
     background-color: darkmagenta;
-    width: 100%;
-    height: 45vh;
-    display: none;
 }
-.jupiter {
-    border: solid black;
-    width: 30%;
-    height: 45vh;
-    margin-left: 2%;
-}
+
 #saturnopopup {
     background-color: darkorange;
-    width: 100%;
-    height: 45vh;
-    display: none;
 }
-.saturno {
-    border: solid black;
-    width: 30%;
-    height: 45vh;
-    margin-left: 2%;
-}
+
 #uranopopup {
     background-color: fuchsia;
-    width: 100%;
-    height: 45vh;
-    display: none;
 }
-.urano {
-    border: solid black;
-    width: 30%;
-    height: 45vh;
-    margin-left: 2%;
-}
+
 #netunopopup {
     background-color: maroon;
-    width: 100%;
-    height: 45vh;
-    display: none;
-}
-.netuno {
-    border: solid black;
-    width: 30%;
-    height: 45vh;
-    margin-left: 2%;
 }

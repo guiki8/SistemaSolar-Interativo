@@ -184,3 +184,30 @@ function func_urano() {
 function func_netuno() {
     document.getElementById('netunopopup').style.display= 'block'
 }
+function func_fec_sol() {
+    document.getElementById('solpopup').style.display= 'none'
+}
+function func_fec_mercurio() {
+    document.getElementById('mercuriopopup').style.display= 'none'
+}
+function func_fec_venus() {
+    document.getElementById('venuspopup').style.display= 'none'
+}
+function func_fec_terra() {
+    document.getElementById('terrapopup').style.display= 'none'
+}
+function func_fec_marte() {
+    document.getElementById('martepopup').style.display= 'none'
+}
+function func_fec_jupiter() {
+    document.getElementById('jupiterpopup').style.display= 'none'
+}
+function func_fec_saturno() {
+    document.getElementById('saturnopopup').style.display= 'none'
+}
+function func_fec_urano() {
+    document.getElementById('uranopopup').style.display= 'none'
+}
+function func_fec_netuno() {
+    document.getElementById('netunopopup').style.display= 'none'
+}
