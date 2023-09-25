@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +8,19 @@
     <link rel="stylesheet" href="Style/style-pag2.css">
     <script src="Script/script-pag2.js"></script>
 </head>
+
 <body>
     <header class="header">
-        <a href="index-pag1.html"><div class="pag1_link">Sistema solar</div></a>
-        <a href="index-pag2.html"><div class="pag2_link">Órbita</div></a>
-        <div class="pad">Button:
+        <a href="index-pag1.html">
+            <div class="pag1_link">Sistema solar</div>
+        </a>
+        <a href="index-pag2.html">
+            <div class="pag2_link">Órbita</div>
+        </a>
+        <div class="pad">Pausar sistema :
             <div class="scale_pad">
                 <div id="scale_ball"></div>
-                <div id="scale_button_on_cell" class="scale_button" onclick="func_escala_cell()"></div>
                 <div id="scale_button_on" class="scale_button" onclick="func_escala()"></div>
-                <div id="scale_button_off_cell" class="scale_button" onclick="func_escala_back_cell()"></div>
                 <div id="scale_button_off" class="scale_button" onclick="func_escala_back()"></div>
             </div>
         </div>
@@ -34,8 +38,9 @@
 
         <div class="terra_orbita orbita"></div>
 
-        <div id="terra" class="terra"></div>
-            <div class="lua"></div>
+        <div id="terra" class="terra">
+            <div id="lua" class="lua"></div>
+        </div>
         <div class="marte_orbita orbita"></div>
 
         <div id="marte" class="marte"></div>
@@ -59,4 +64,5 @@
         <div id="netuno" class="netuno"></div>
     </section>
 </body>
+
 </html>
