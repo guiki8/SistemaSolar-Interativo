@@ -5,7 +5,7 @@
 
 * {
     color: white;
-    font-size: 1vmax;
+    font-size: 1.5vmax;
     font-family: ShareTech;
 }
 
@@ -141,99 +141,6 @@ section {
     position: absolute;
     background-color: transparent;
     border-radius: 100px;
-}
-
-/* TELA DE CELULAR  */
-@media(max-width:100vh) {
-
-    body{
-        background-image: url(Imagens/fundo.gif), linear-gradient(180deg, rgb(214, 150, 104) 0%, rgb(156, 83, 48) 6%, rgb(75, 45, 38) 20%, rgb(27, 13, 17) 40%, rgb(23, 12, 21) 70%, rgb(8, 5, 10) 100%);; 
-        background-blend-mode: lighten;
-    }
-
-    .pad{
-        width: 40%;
-    }
-
-    .section2 {
-        overflow: hidden;
-        width: 100%;
-        height: 100%;
-        margin-top: 2vh;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    section{
-        overflow: hidden;
-        width: 100%;
-        height: 100%;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #scale_button_on {
-        display: none;
-    }
-
-    #scale_button_on_cell {
-        display: block;
-    }
-
-    #scale_button_off {
-        display: none;
-    }
-    
-    #scale_button_off_cell {
-        display: none;
-    }
-
-    .planeta {
-        float: left;
-        margin-top: 5vmax;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        position: relative;
-        cursor: pointer;
-    }
-}
-
-/* TELA DE COMPUTADOR  */
-@media(min-width:100vh) {
-
-    body{
-        background-image: url(Imagens/fundo.gif), linear-gradient(90deg, rgb(214, 150, 104) 0%, rgb(156, 83, 48) 6%, rgb(75, 45, 38) 20%, rgb(27, 13, 17) 40%, rgb(23, 12, 21) 70%, rgb(8, 5, 10) 100%);; 
-        background-blend-mode: lighten;
-    }
-
-    #scale_button_on {
-        display: block;
-    }
-
-    #scale_button_on_cell {
-        display: none;
-    }
-
-    #scale_button_off {
-        display: none;
-    }
-    
-    #scale_button_off_cell {
-        display: none;
-    }
-
-    .planeta {
-        float: left;
-        margin-left: 3vw;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        position: relative;
-        cursor: pointer;
-    }
 }
 
 .planeta_menor {
@@ -557,55 +464,160 @@ section {
     width: 100%;
     height: 45vh;
     display: none;
-    float: left;
+    margin-top: 5vh;
+    background: rgb(0 ,0 ,0 , 0.5);
+    border: 0.5vh solid white;
+    border-radius: 30px;
 }
 .borda {
-    border: solid black;
     width: 30%;
-    height: 45vh;
-    margin-left: 2%;
+    height: auto;
+    margin-top: 4vh;
+    margin-left: 2vh;
+    background: rgb(0 ,0 ,0 , 0.5);
+    border: 0.5vh solid white;
+    border-radius: 30px;
+    overflow: hidden;
+    align-items: center;
     float: left;
 }
 
 .icone_x {
-    float: right;
+    width: 2vw;
+    height: auto;
+    float: left;
     cursor: pointer;
-    width: 5vw;
-    height: 50px;
-}
-
-#solpopup {
     background-color: white;
+    border-radius: 100%;
+    border: 0.5vh solid white;
+    margin-left: 1vw;
+    margin-top: 1vw;
 }
 
-#mercuriopopup {
-    background-color: red;
+.textpopup{
+    width: 50%;
+    height: 40vh;
+    margin-right: 5%;
+    margin-top: 2.5vh;
+    float: right;
 }
 
-#venuspopup {
-    background-color: yellow;
+
+/* TELA DE CELULAR  */
+@media(max-width:100vh) {
+    
+    * {
+        font-size: 3vmax;
+    }
+    
+    body{
+        background-image: url(Imagens/fundo.gif), linear-gradient(180deg, rgb(214, 150, 104) 0%, rgb(156, 83, 48) 6%, rgb(75, 45, 38) 20%, rgb(27, 13, 17) 40%, rgb(23, 12, 21) 70%, rgb(8, 5, 10) 100%);; 
+        background-blend-mode: lighten;
+    }
+    
+    .pad{
+        width: 40%;
+    }
+    
+    .section2 {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        margin-top: 2vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    section{
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #scale_button_on {
+        display: none;
+    }
+    
+    #scale_button_on_cell {
+        display: block;
+    }
+    
+    #scale_button_off {
+        display: none;
+    }
+    
+    #scale_button_off_cell {
+        display: none;
+    }
+    
+    .planeta {
+        float: left;
+        margin-top: 5vmax;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .popup{
+        width: 100%;
+        height: 90vh;
+    }
+    
+    .borda{
+        margin-top: 1vh;
+        height: auto;
+        width: 90%;
+    }
+    
+    .icone_x{
+        width: 5vw;
+        height: auto;
+    }
+
+    .textpopup{
+        width: 90%;
+        height: 50vh;
+    }
 }
 
-#terrapopup {
-    background-color: aqua;
-}
+/* TELA DE COMPUTADOR  */
+@media(min-width:100vh) {
+    
+    body{
+        background-image: url(Imagens/fundo.gif), linear-gradient(90deg, rgb(214, 150, 104) 0%, rgb(156, 83, 48) 6%, rgb(75, 45, 38) 20%, rgb(27, 13, 17) 40%, rgb(23, 12, 21) 70%, rgb(8, 5, 10) 100%);; 
+        background-blend-mode: lighten;
+    }
+    
+    #scale_button_on {
+        display: block;
+    }
+    
+    #scale_button_on_cell {
+        display: none;
+    }
 
-#martepopup {
-    background-color: chartreuse;
-}
+    #scale_button_off {
+        display: none;
+    }
+    
+    #scale_button_off_cell {
+        display: none;
+    }
 
-#jupiterpopup {
-    background-color: darkmagenta;
-}
+    .planeta {
+        float: left;
+        margin-left: 3vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        cursor: pointer;
+    }
 
-#saturnopopup {
-    background-color: darkorange;
-}
-
-#uranopopup {
-    background-color: fuchsia;
-}
-
-#netunopopup {
-    background-color: maroon;
 }

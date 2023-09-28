@@ -159,29 +159,101 @@ function func_escala_back_cell() {
 
 function func_sol() {
     document.getElementById('solpopup').style.display = 'block'
+    document.getElementById('mercuriopopup').style.display= 'none'
+    document.getElementById('venuspopup').style.display= 'none'
+    document.getElementById('terrapopup').style.display= 'none'
+    document.getElementById('martepopup').style.display= 'none'
+    document.getElementById('jupiterpopup').style.display= 'none'
+    document.getElementById('saturnopopup').style.display= 'none'
+    document.getElementById('uranopopup').style.display= 'none'
+    document.getElementById('netunopopup').style.display= 'none'
 }
 function func_mercurio() {
+    document.getElementById('solpopup').style.display = 'none'
     document.getElementById('mercuriopopup').style.display= 'block'
+    document.getElementById('venuspopup').style.display= 'none'
+    document.getElementById('terrapopup').style.display= 'none'
+    document.getElementById('martepopup').style.display= 'none'
+    document.getElementById('jupiterpopup').style.display= 'none'
+    document.getElementById('saturnopopup').style.display= 'none'
+    document.getElementById('uranopopup').style.display= 'none'
+    document.getElementById('netunopopup').style.display= 'none'
 }
 function func_venus() {
+    document.getElementById('solpopup').style.display = 'none'
+    document.getElementById('mercuriopopup').style.display= 'none'
     document.getElementById('venuspopup').style.display= 'block'
+    document.getElementById('terrapopup').style.display= 'none'
+    document.getElementById('martepopup').style.display= 'none'
+    document.getElementById('jupiterpopup').style.display= 'none'
+    document.getElementById('saturnopopup').style.display= 'none'
+    document.getElementById('uranopopup').style.display= 'none'
+    document.getElementById('netunopopup').style.display= 'none'
 }
 function func_terra() {
+    document.getElementById('solpopup').style.display = 'none'
+    document.getElementById('mercuriopopup').style.display= 'none'
+    document.getElementById('venuspopup').style.display= 'none'
     document.getElementById('terrapopup').style.display= 'block'
+    document.getElementById('martepopup').style.display= 'none'
+    document.getElementById('jupiterpopup').style.display= 'none'
+    document.getElementById('saturnopopup').style.display= 'none'
+    document.getElementById('uranopopup').style.display= 'none'
+    document.getElementById('netunopopup').style.display= 'none'
 }
 function func_marte() {
+    document.getElementById('solpopup').style.display = 'none'
+    document.getElementById('mercuriopopup').style.display= 'none'
+    document.getElementById('venuspopup').style.display= 'none'
+    document.getElementById('terrapopup').style.display= 'none'
     document.getElementById('martepopup').style.display= 'block'
+    document.getElementById('jupiterpopup').style.display= 'none'
+    document.getElementById('saturnopopup').style.display= 'none'
+    document.getElementById('uranopopup').style.display= 'none'
+    document.getElementById('netunopopup').style.display= 'none'
 }
 function func_jupiter() {
+    document.getElementById('solpopup').style.display = 'none'
+    document.getElementById('mercuriopopup').style.display= 'none'
+    document.getElementById('venuspopup').style.display= 'none'
+    document.getElementById('terrapopup').style.display= 'none'
+    document.getElementById('martepopup').style.display= 'none'
     document.getElementById('jupiterpopup').style.display= 'block'
+    document.getElementById('saturnopopup').style.display= 'none'
+    document.getElementById('uranopopup').style.display= 'none'
+    document.getElementById('netunopopup').style.display= 'none'
 }
 function func_saturno() {
+    document.getElementById('solpopup').style.display = 'none'
+    document.getElementById('mercuriopopup').style.display= 'none'
+    document.getElementById('venuspopup').style.display= 'none'
+    document.getElementById('terrapopup').style.display= 'none'
+    document.getElementById('martepopup').style.display= 'none'
+    document.getElementById('jupiterpopup').style.display= 'none'
     document.getElementById('saturnopopup').style.display= 'block'
+    document.getElementById('uranopopup').style.display= 'none'
+    document.getElementById('netunopopup').style.display= 'none'
 }
 function func_urano() {
+    document.getElementById('solpopup').style.display = 'none'
+    document.getElementById('mercuriopopup').style.display= 'none'
+    document.getElementById('venuspopup').style.display= 'none'
+    document.getElementById('terrapopup').style.display= 'none'
+    document.getElementById('martepopup').style.display= 'none'
+    document.getElementById('jupiterpopup').style.display= 'none'
+    document.getElementById('saturnopopup').style.display= 'none'
     document.getElementById('uranopopup').style.display= 'block'
+    document.getElementById('netunopopup').style.display= 'none'
 }
 function func_netuno() {
+    document.getElementById('solpopup').style.display = 'none'
+    document.getElementById('mercuriopopup').style.display= 'none'
+    document.getElementById('venuspopup').style.display= 'none'
+    document.getElementById('terrapopup').style.display= 'none'
+    document.getElementById('martepopup').style.display= 'none'
+    document.getElementById('jupiterpopup').style.display= 'none'
+    document.getElementById('saturnopopup').style.display= 'none'
+    document.getElementById('uranopopup').style.display= 'none'
     document.getElementById('netunopopup').style.display= 'block'
 }
 function func_fec_sol() {
