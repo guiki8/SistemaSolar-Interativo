@@ -1,0 +1,85 @@
+@font-face {
+    font-family: ShareTech;
+    src: url(ShareTech-Regular.ttf);
+}
+
+* {
+    color: white;
+    font-size: 1.5vmax;
+    font-family: ShareTech;
+}
+
+body{
+    background-image: url(Imagens/fundo.gif), linear-gradient(90deg, rgb(214, 150, 104) 0%, rgb(156, 83, 48) 6%, rgb(75, 45, 38) 20%, rgb(27, 13, 17) 40%, rgb(23, 12, 21) 70%, rgb(8, 5, 10) 100%);; 
+    background-blend-mode: lighten;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header{
+    height: 15vh;
+    width: 100%;
+    background: rgb(0 ,0 ,0 , 0.5);
+    border: 0.5vh solid white;
+    border-radius: 30px;
+    font-size: 14vh;
+}
+
+section{
+    overflow: hidden;
+    height: 60vh;
+    width: 60%;
+    margin: 5vh;
+    float: left;
+    background: rgb(0 ,0 ,0 , 0.5);
+    border: 0.5vh solid white;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+}
+
+.pag1_link, .pag2_link{
+    width: 50%;
+    height: 8vh;
+    margin-left: 25%;
+    margin-top: 3vh;
+    font-size: 2.5vmax;
+    text-align: center;
+    border-radius: 30px;
+    padding: 0.5vh;
+    box-sizing: border-box;
+    background: rgb(0 ,0 ,0 , 0.5);
+    border: 0.5vh solid white;
+}
+
+.pag1_link:hover, .pag2_link:hover{
+    cursor: pointer;
+    color: black;
+    background-color: rgb(255 ,255 ,255);
+}
+
+a{
+    text-decoration: none;
+}
+
+aside{
+    overflow: hidden;
+    height: 60vh;
+    width: 20%;
+    margin: 5vh;
+    float: left;
+    background: rgb(0 ,0 ,0 , 0.5);
+    border: 0.5vh solid white;
+    border-radius: 30px;
+}
+
+
+@media(max-width:100vh) {
+    section{
+        width: 100%;
+        margin: 0;
+    }
+}
