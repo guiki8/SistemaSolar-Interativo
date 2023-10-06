@@ -43,9 +43,10 @@ html{
 }
 
 .pag1_link, .pag2_link, .pag_menu{
-    width: 20%;
+    width: 18%;
     height: 8vh;
-    margin: 1vh;
+    margin-top: 1vh;
+    margin-left: 0.7vh;
     font-size: 2.5vmax;
     text-align: center;
     float: left;
@@ -60,9 +61,6 @@ html{
     cursor: pointer;
     color: black;
     background-color: rgb(255 ,255 ,255);
-}
-span {
-    color: transparent;
 }
 
 body {
@@ -93,7 +91,8 @@ section {
 .pad{
     width: 30%;
     height: 8vh;
-    margin: 1vh;
+    margin-top: 1vh;
+    margin-right: 0.5vh;
     font-size: 2.5vmax;
     text-align: center;
     float: right;
