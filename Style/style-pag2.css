@@ -16,7 +16,7 @@
     border: 0.5vh solid white;
 }
 
-.pag1_link, .pag2_link{
+.pag1_link, .pag2_link, .pag_menu{
     width: 20%;
     height: 8vh;
     margin: 1vh;
@@ -30,7 +30,7 @@
     border: 0.5vh solid white;
 }
 
-.pag1_link:hover, .pag2_link:hover{
+.pag1_link:hover, .pag2_link:hover, .pag_menu:hover{
     cursor: pointer;
     color: black;
     background-color: rgb(255 ,255 ,255);
