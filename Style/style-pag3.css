@@ -84,16 +84,57 @@ section{
     border: 0.5vh solid white;
 }
 
+.quadrado1{
+    background-image: url(Imagens/nebulosa.png);
+    background-size: cover;
+}
+
+.quadrado2{
+    background-image: url(Imagens/marte.png);
+    background-size: cover;
+}
+
+.quadrado3{
+    background-image: url(Imagens/exoplanetas.png);
+    background-size: cover;
+}
+
 .quadrado4{
     width: 96%;
+    background-image: url(Imagens/anoes.png);
+    background-size: cover;
+}
+
+.quadrado5{
+    background-image: url(Imagens/);
+    background-size: cover;
 }
 
 .quadrado6{
     width: 63%;
+    background-image: url(Imagens/);
+    background-size: cover;
+}
+
+.quadrado7{
+    background-image: url(Imagens/);
+    background-size: cover;
+}
+
+.quadrado8{
+    background-image: url(Imagens/);
+    background-size: cover;
+}
+
+.quadrado9{
+    background-image: url(Imagens/);
+    background-size: cover;
 }
 
 .quadrado10{
     width: 96%;
+    background-image: url(Imagens/);
+    background-size: cover;
 }
 
 .mais{
