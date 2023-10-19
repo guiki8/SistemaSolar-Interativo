@@ -42,12 +42,12 @@ html{
     border: 0.5vh solid white;
 }
 
-.pag1_link, .pag2_link, .pag_menu{
-    width: 18%;
+.pag1_link, .pag2_link, .pag3_link, .pag_menu{
+    width: 15%;
     height: 8vh;
     margin-top: 1vh;
     margin-left: 0.7vh;
-    font-size: 2.5vmax;
+    font-size: 2vmax;
     text-align: center;
     float: left;
     border-radius: 30px;
@@ -57,7 +57,7 @@ html{
     border: 0.5vh solid white;
 }
 
-.pag1_link:hover, .pag2_link:hover, .pag_menu:hover{
+.pag1_link:hover, .pag2_link:hover, .pag3_link:hover, .pag_menu:hover{
     cursor: pointer;
     color: black;
     background-color: rgb(255 ,255 ,255);
@@ -93,7 +93,7 @@ section {
     height: 8vh;
     margin-top: 1vh;
     margin-right: 0.5vh;
-    font-size: 2.5vmax;
+    font-size: 2vmax;
     text-align: center;
     float: right;
     border-radius: 30px;
