@@ -145,6 +145,20 @@ section {
     border-radius: 100px;
 }
 
+.dist{
+    width: 8vmax;
+    height: 2vmax;
+    background-color: red;
+    color: transparent;
+    margin-left: 3vmax;
+    font-size: 1vmax;
+}
+
+.dist:hover{
+    display: block;
+    color: white;
+}
+
 .planeta_menor {
     width: 90%;
     height: 90%;
