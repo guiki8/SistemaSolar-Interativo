@@ -228,6 +228,14 @@ section {
     width: 30vmax;
 }
 
+.blua{
+    animation-name: animation_blua;
+    animation-duration: 1s;
+    position: absolute;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
 .lua{
     height: 2vmax;
     width: 2vmax;
@@ -446,13 +454,23 @@ section {
     }
 }
 
-@keyframes animation_lua {
+@keyframes animation_blua {
     0% {
         transform: rotate(0deg) translate(-4vmax) rotate(0deg);
     }
 
     100% {
         transform: rotate(360deg) translate(-4vmax) rotate(-360deg);
+    }
+}
+
+@keyframes animation_lua {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
     }
 }
 

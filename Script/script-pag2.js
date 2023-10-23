@@ -12,6 +12,7 @@ function func_escala() {
     document.getElementById('urano').style.animationPlayState = 'paused'
     document.getElementById('netuno').style.animationPlayState = 'paused'
     document.getElementById('lua').style.animationPlayState = 'paused'
+    document.getElementById('blua').style.animationPlayState = 'paused'
 }
 
 function func_escala_back() {
@@ -28,4 +29,5 @@ function func_escala_back() {
     document.getElementById('urano').style.animationPlayState = 'running'
     document.getElementById('netuno').style.animationPlayState = 'running'
     document.getElementById('lua').style.animationPlayState = 'running'
+    document.getElementById('blua').style.animationPlayState = 'running'
 }

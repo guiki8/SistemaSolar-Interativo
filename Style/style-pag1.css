@@ -145,10 +145,25 @@ section {
     border-radius: 100px;
 }
 
+.info{
+    width: 20%;
+    height: 2.5vmax;
+    margin-top: 1vh;
+    margin-right: 0.5vh;
+    font-size: 1.5vmax;
+    text-align: center;
+    float: right;
+    border-radius: 30px;
+    padding: 0.5vmax;
+    position: fixed;
+    box-sizing: border-box;
+    background: rgb(0 ,0 ,0 , 0.5);
+    border: 0.5vh solid white;
+}
+
 .dist{
     width: 8vmax;
     height: 2vmax;
-    background-color: red;
     color: transparent;
     margin-left: 3vmax;
     font-size: 1vmax;
