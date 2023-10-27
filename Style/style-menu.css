@@ -67,9 +67,10 @@ aside{
     overflow: hidden;
     height: 60vh;
     width: 20%;
+    font-size: 1.5vmax;
     margin: 5vh;
     float: right;
-    background: rgb(0 ,0 ,0 , 0.5);
+    background: rgb(0 ,0 ,0, 0.5);
     border: 0.5vh solid white;
     border-radius: 30px;
 }
@@ -87,10 +88,11 @@ aside{
         overflow: hidden;
         height: 60vh;
         width: 80%;
+        font-size: 3.5vmax;
         margin: 5vmax;
         float: right;
     }
-    .pag1_link, .pag2_link{
+    .pag1_link, .pag2_link, .pag3_link{
         font-size: 4vmax;
     }
 }

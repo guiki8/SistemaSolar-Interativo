@@ -190,8 +190,18 @@ section{
 }
 
 @media(max-width:100vh){
+    .pag1_link, .pag2_link, .pag3_link, .pag_menu{
+        font-size: 2.5vmax;
+    }
+
     section{
         height: 550vh;
+    }
+
+    .icone_x{
+        width: 3vmax;
+        margin-left: -4vw;
+    margin-top: -4vw;
     }
 
     .quadrado{
@@ -210,5 +220,14 @@ section{
     
     .quadrado10{
         width: 96%;
+    }
+
+    .mais{
+        font-size: 4vmax;
+    }
+
+    .popup{
+        font-size: 3vmax;
+        padding: 5vmax;
     }
 }

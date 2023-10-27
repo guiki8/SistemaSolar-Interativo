@@ -1,11 +1,13 @@
 /* Escala no monitor */
 
 function func_escala() {
-    document.getElementById('scale_button_on').style.display = 'none'
+    document.getElementById('scale_button_on').style.display = 'block'
     document.getElementById('scale_button_off').style.display = 'block'
     document.getElementById('scale_button_on_cell').style.display = 'none'
     document.getElementById('scale_button_off_cell').style.display = 'none'
     document.getElementById('scale_ball').style.marginLeft = '6.25vmin'
+
+    document.getElementById('info').style.display = 'block'
 
     document.getElementById('planeta1').style.height = '605vmin'
     document.getElementById('planeta1').style.width = '605vmin'
@@ -46,6 +48,8 @@ function func_escala_back() {
     document.getElementById('scale_button_on_cell').style.display = 'none'
     document.getElementById('scale_button_off_cell').style.display = 'none'
     document.getElementById('scale_ball').style.marginLeft = '0.25vmin'
+
+    document.getElementById('info').style.display = 'none'
 
     document.getElementById('planeta1').style.height = '15vmax'
     document.getElementById('planeta1').style.width = '15vmax'

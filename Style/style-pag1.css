@@ -140,20 +140,21 @@ section {
     height: 2.5vmax;
     width: 5vmax;
     margin-top: -2.5vmax;
-    position: absolute;
+    position: sticky;
     background-color: transparent;
     border-radius: 100px;
 }
 
-.info{
+#info{
     width: 20%;
     height: 2.5vmax;
-    margin-top: 1vh;
+    margin-top: -8vh;
     margin-right: 0.5vh;
     font-size: 1.5vmax;
     text-align: center;
-    float: right;
+    float: left;
     border-radius: 30px;
+    display: none;
     padding: 0.5vmax;
     position: fixed;
     box-sizing: border-box;
@@ -619,6 +620,9 @@ section {
 
 /* TELA DE COMPUTADOR  */
 @media(min-width:100vh) {
+    .pag1_link, .pag2_link, .pag3_link, .pag_menu{
+        font-size: 2.5vmax;
+    }
     
     body{
         background-image: url(Imagens/fundo.gif), linear-gradient(90deg, rgb(214, 150, 104) 0%, rgb(156, 83, 48) 6%, rgb(75, 45, 38) 20%, rgb(27, 13, 17) 40%, rgb(23, 12, 21) 70%, rgb(8, 5, 10) 100%);; 
